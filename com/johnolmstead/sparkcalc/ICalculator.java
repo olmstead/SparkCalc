@@ -3,7 +3,8 @@ package com.johnolmstead.sparkcalc;
 import java.math.BigDecimal;
 
 /**
- * Calculator lamda interface with helper method
+ * Calculator interface with helper method.
+ * Implemented by SimpleCalculator only for now
  */
 public interface ICalculator {
 

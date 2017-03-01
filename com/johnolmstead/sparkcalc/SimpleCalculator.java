@@ -6,10 +6,10 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /**
- * SimpleCalculator class
+ * SimpleCalculator
+ * handles only binary operators
  * does not handle parentheses
  * does not handle right-associative operators
- * handles only binary operators
  */
 public class SimpleCalculator implements ICalculator {
 
@@ -78,7 +78,6 @@ public class SimpleCalculator implements ICalculator {
             e.printStackTrace();
             return null;
         }
-
         return result;
     }
 
